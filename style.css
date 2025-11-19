@@ -48,11 +48,14 @@ main{
     align-items: center;
     border: 5px solid rgb(58, 71, 47);
     box-shadow:  3px 3px 3px 0px;
+    transition: all 0.3s;
 
 }
 .tovar:hover{
     cursor: pointer;
     box-shadow: 10px 10px 10px 0px;
+    transform: scale(1.1);
+    transition: all 0.3s;
 
 }
 .pic {
