@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+
+* {
+  font-family: "Stalinist One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+    background: rgb(209, 223, 173);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header a{
+    color: rgb(63, 78, 46);
+    font-size:35px;
+    background: rgb(158, 194, 134);
+    padding: 6px;
+    border:  3px solid rgb(16, 114, 16);
+    border-radius: 13px;
+    text-decoration: none;
+    
+}
+header a:hover{
+    color: rgb(69, 155, 29);
+}
+header a:active{
+    transform: translateY(7px) scale(0.9)
+}
+header img{
+    height: 300px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+main{
+    background: rgb(172, 209, 136);
+}
+.tovar{
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    width:15vw;
+    margin-bottom: 10px;
+    
+    align-items: center;
+    border: 5px solid rgb(58, 71, 47);
+    box-shadow:  3px 3px 3px 0px;
+
+}
+.tovar:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 0px;
+
+}
+.pic {
+    width: 100%;
+    aspect-ratio: 1/1;
+    position: relative;
+    
+}
+.pic img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    position: absolute;
+
+}
+.kart{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.rip{
+    text-align: center;
+    font-size: 30px;
+}
+.new{
+    min-width: 200px;
+    width:45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(91, 117, 50);
+    
+}
+.newpic{
+    width: 100%;
+    aspect-ratio: 1/1;
+    position: relative;
+}
+.newpic img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    position: absolute;
+
+}
+    
+
+.novosti{
+    display: flex;
+    justify-content: space-around;
+    margin: 7px;
+}
+.reg{
+     text-align: center;
+    font-size: 30px;
+    background: rgb(190, 224, 127);
+}
+.login{
+    text-align: center;
+    font-size: 30px;
+    background: rgb(190, 224, 127);
+}
